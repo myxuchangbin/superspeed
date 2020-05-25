@@ -3,11 +3,11 @@
 
 ## 使用方法
 ```
-bash <(curl -Lso- https://git.io/superspeed)
+bash <(curl -Lso- https://raw.githubusercontent.com/myxuchangbin/superspeed/master/superspeed.sh)
 ```
 
 ## 节点列表
-[查看全部节点列表（更新日期：2020/04/09）](https://git.io/superspeedList) 
+[查看全部节点列表（更新日期：2020/05/25）](https://github.com/myxuchangbin/superspeed/blob/master/ServerList.md) 
 
 ## 截图
 ![测速图](SuperSpeed.png)
@@ -18,5 +18,4 @@ bash <(curl -Lso- https://git.io/superspeed)
 
 <a name="脚注2">2</a>: 仅包括中国大陆地区电信、联通、移动节点。
 
-<a name="脚注3">3</a>: 使用 [ookla](https://bintray.com/ookla/download/download_file?file_path=ookla-speedtest-1.0.0-x86_64-linux.tgz) 提供的测速程序
-。
+<a name="脚注3">3</a>: 使用 [du5](https://github.com/du5/speedtest-cli) 修改的第三方测速程序，拒绝官方测速数据虚高问题。
